@@ -1,6 +1,6 @@
 # Wikidata for humans
 
-**wkdfh** is a Python module for humans who want to work with Wikidata.
+**wkdfh** is a Python module for humans who work with Wikidata.
 
 It’s a wrapper around [`pywikibot`](https://www.mediawiki.org/wiki/Manual:Pywikibot)
 that adds a couple shortcuts to ease data exploration.
@@ -14,7 +14,7 @@ that adds a couple shortcuts to ease data exploration.
 >>> p = wkdfh.Item("Q6756362")
 >>> p.label
 'Marcella Hazan'
->>> p.populate_attributes()  # create attributes from the Wikidata properties
+>>> p.populate_attributes()  # create attributes from the Wikidata claims
 >>> p.given_name.label
 'Marcella'
 >>> p.family_name.label
