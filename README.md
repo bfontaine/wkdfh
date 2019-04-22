@@ -14,7 +14,7 @@ that adds a couple shortcuts to ease data exploration.
 >>> p = wkdfh.Item("Q6756362")
 >>> p.label
 'Marcella Hazan'
->>> p.populate_attributes()
+>>> p.populate_attributes()  # create attributes from the Wikidata properties
 >>> p.given_name.label
 'Marcella'
 >>> p.family_name.label
