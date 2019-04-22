@@ -5,6 +5,8 @@
 It’s a wrapper around [`pywikibot`](https://www.mediawiki.org/wiki/Manual:Pywikibot)
 that adds a couple shortcuts to ease data exploration.
 
+**Note:** This is really experimental at this point.
+
 ## Example
 
 ```pycon
@@ -22,3 +24,9 @@ that adds a couple shortcuts to ease data exploration.
 >>> p.viaf_id
 '79375768'
 ```
+
+## Install
+
+    pip install wkdfh
+
+Requirement: Python 3.

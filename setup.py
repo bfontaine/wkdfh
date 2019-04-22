@@ -23,6 +23,7 @@ setup(
     license=open('LICENSE', 'r', encoding='utf-8').read(),
     description='Wikidata for humans',
     long_description=open('README.md', 'r', encoding='utf-8').read(),
+    install_requires=['pywikibot'],
     classifiers=[
         'Intended Audience :: Developers',
         'Operating System :: OS Independent',
